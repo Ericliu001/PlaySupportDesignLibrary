@@ -38,6 +38,8 @@ public abstract class BaseActivity extends AppCompatActivity {
             setSupportActionBar(mToolbar);
             getSupportActionBar().setHomeButtonEnabled(true);
             getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+
+            mToolbar.setTitle("Material Design");
         }
 
         if (hasNavigationDrawer && hasToolbar) {
